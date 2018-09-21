@@ -1,0 +1,46 @@
+Question 1: Hello,
+
+I'm new to search engines, and there are a lot of concepts I'm not educated on. To make my onboarding smoother, it'd help if you could provide me with some definitions of the following concepts:
+
+Records
+Indexing
+I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking."
+
+Cheers, George
+
+-----------------------------------------------------------
+Hi George,
+
+'Records' at Algolia means something that you can search for such as a product, books, or people. This searchable object is added to the Algolia database which we store as indexes. 'Indexing' is the operation to store the records you have into Algolia enabling fast searches. Indexing is a piece of data related to your searchable records that help to make the search faster. With 'Custom Ranking' you're free to use whichever metrics that will show the most relevant results at the top. This could for example be books that are rated and books with a higher rating score can be used a metric to determine the results order. Please feel free to reach out if you have further questions or help pushing your data and integrating searches through Algolia.
+
+Best Regards,
+Ben Chang
+
+-----------------------------------------------------------
+Question 2: Hello,
+
+Sorry to give you the kind of feedback that I know you do not want to hear, but I really hate the new dashboard design. Clearing and deleting indexes are now several clicks away. I am needing to use these features while iterating, so this is inconvenient.
+
+Regards, Matt
+
+
+Hi Matt,
+
+Thank you for providing feedback on the new dashboard design. We understand your concern and will bring it up to the Dashboard team to see what changes can be made to ease modifying the indexes. In the meantime, we can provide you with a method to clear and delete your indexes faster if you would like (for example an automated script). Please let us know if you have any other issues using Algolia.
+
+Best Regards,
+Ben Chang
+
+-----------------------------------------------------------
+Question 3: Hi,
+
+I'm looking to integrate Algolia in my website. Will this be a lot of development work for me? What's the high level process look like?
+
+Regards, Leo
+
+Hi Leo,
+
+Integrating Algolia is easy! First we have to determine your searching needs and expected amount of searches on your website. We may be able to start with the essentials and integration will be fast. At a high level, you need to index your dataset and determine your searchable attributes on your dataset then integrate the Algolia Search. That's it and you can go further by refining searches and queries as well as ranking searches that may be more relelvant to a search. Algolia also has a InstantSearch javascript helper that makes integrating high-level searches even easier. I have provided a few getting started tutorials here and please feel free to contact us with any development issues.
+
+Best Regards,
+Ben Chang
